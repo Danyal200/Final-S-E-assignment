@@ -1,0 +1,67 @@
+                  SUMMARY
+ TOPIC:
+
+Characterizing and Identifying Composite Refactorings:
+Concepts, Heuristics and Patterns
+
+ AUTHORS NAME:
+
+Leonardo Sousa, Diego Cedrim, Alessandro Garcia, Willian Oizumi, Ana C.
+Bibiano, Daniel Oliveira, Miryung Kim, and Anderson Oliveira. 2020. Characterizing and Identifying Composite Refactorings: Concepts, Heuristicsand Patterns. 
+
+ CONFERENCE NAME: Mining Software Repositories (MSR'20),
+
+ 17th International Conference on Mining Software Repositories (MSR ’20), October 5–6, 2020, Seoul, Republic of Korea. ACM, New York,NY,USA,12 Pages.
+
+          INTRODUCTION:
+
+Software refactoring is a widely used technique in practice [8, 10,13, 19, 20, 33, 52]. Refactoring consists of a program transformation used to improve software structure, such as removing code smells.
+However, from 40% to 60% of the times, developers apply more than one refactoring in conjunction [6, 33], even for removing simple code smells,such as Long Methods.
+Recent studies (e.g., [6, 8, 44, 53]) have analyzed a single category
+of composite at a time. For example, Palomba et al. [44] and Tufano
+et al. [53] analyze temporally-related composites, while Bibiano et
+al. [6] and Brito et al. [8] explore spatial composites.
+To investigate composite refactorings, we mined the commit
+history of 48 GitHub software projects (i) to identify the characteristics of different categories of composite refactorings, and (ii) their effect on either removing or introducing smells.
+We observe that nearly 41% of composites are complex, i.e., are
+comprised by 3 to 20 interrelated refactorings, which contradicts
+a recent finding.
+ 
+                  RESEARCH METHODOLOGY:
+
+ This framework to provide a foundation for our heuristics and our empirical study. Other researchers can also use it to conduct studies based on unambiguous concepts.
+A developer can start a composite in
+a commit and finish it in the same commit or in the subsequent
+commits. In this sense,composite timespan indicates if the composite
+is either single-commit or cross-commit.
+A heuristic that synthesizes composites
+using as scope an individual code element, i.e., either a method
+or a class. The goal of this heuristic is to investigate how composites affect an specific element.
+In this heuristic, the composite scope is determined by the element used to synthesize the composites.
+The commit-based composite heuristic synthesizes as a composite all refactorings performed within a commit.
+The range-based composite heuristic considers the notion of refactoring scope to synthesize composites.
+In this heuristic, the scope of all refactorings form the composite scope.
+we proposed heuristics to identify composites. These heuristics allow one to analyze composites from different, albeit complementary, perspectives. To propose them,we formally defined concepts that characterize a composite.
+First, we need to identify the elements affected by each category of composite, but taking into consideration their composite scope.
+Then, we analyze what happened with the smells before and after developers apply the composites. To support this analysis, we classify each composite according to their effect on the incidence of smells.
+A creational pattern represents a recurring case where the
+composite tends to introduce a code smell. A removal pattern
+represents a recurring case where the composite tends to remove
+a smell. There is no empirical study in the literature that reports
+composites that typically remove or introduce smells.
+we are able to reveal composites used by developers not only to remove, but also to inadvertently introduce smells.
+
+                        RESULT:
+
+
+
+Composite refactoring is common in practice, but a wide empirical
+knowledge about it is scarce. To tackle this issue, first, we provided a conceptual characterization of composites and defined two
+heuristics to identify composites in different categories. Second, we
+investigated how composites manifest in practice, and how they
+affect the program structure. Our results show that to study composite we need to rely on different heuristics: they are complementary
+to each other, but most empirical studies tend to use only a single
+heuristic. For example, the identification of the semantically-related
+refactorings was only possible using the commit-based and rangebased heuristics together. Similarly, the identification of several
+composite-smell patterns were only possible with the range-based
+heuristic.
