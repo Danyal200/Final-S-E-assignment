@@ -1,5 +1,7 @@
 # Final-S-E-assignment
 
+paper 1
+
     SUMMERY 
    TOPIC:
 
@@ -70,6 +72,7 @@ correctness tests for the compiler front-end and back-end; several
 anomalies were postponed for further discussion on possible language design issues. Based on these results and further discussions
 with the Kotlin compiler developers, we believe that the detected anomalies are useful and valuable for the language development,and our proposed approach proved itself successful in detection ofvarious code anomalies. 
 
+paper 2
 
            SUMMARY
  TOPIC:
@@ -140,6 +143,7 @@ composite-smell patterns were only possible with the range-based
 heuristic.
 
 
+paper 3
 
            SUMMARY
 TOPIC:
