@@ -1,6 +1,6 @@
 # Final-S-E-assignment
 
-paper 1
+paper 1 link: file:///C:/Users/NOORANI%20COMPUTER%20SYZ/Desktop/2004.01618.pdf
 
     SUMMERY 
    TOPIC:
@@ -72,7 +72,7 @@ correctness tests for the compiler front-end and back-end; several
 anomalies were postponed for further discussion on possible language design issues. Based on these results and further discussions
 with the Kotlin compiler developers, we believe that the detected anomalies are useful and valuable for the language development,and our proposed approach proved itself successful in detection ofvarious code anomalies. 
 
-paper 2
+paper 2 link: file:///C:/Users/NOORANI%20COMPUTER%20SYZ/Desktop/Characterizing_and_Identifying_Composite_Refactorings___CR.pdf
 
            SUMMARY
  TOPIC:
@@ -143,7 +143,7 @@ composite-smell patterns were only possible with the range-based
 heuristic.
 
 
-paper 3
+paper 3 link: file:///C:/Users/NOORANI%20COMPUTER%20SYZ/Desktop/nakamaru-msr2020.pdf
 
            SUMMARY
 TOPIC:
